@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{904cf37f-a6da-41bf-a5ff-2833348cb484}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{452d9af2-e44e-4a21-95d2-83f684c9e77e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Component">
+      <UniqueIdentifier>{6c001614-67d6-4843-855a-51ccaf6b1754}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Scene">
+      <UniqueIdentifier>{3439decd-9714-422c-aef6-622ade934519}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Timer">
+      <UniqueIdentifier>{01479e2f-7b9b-40d0-9e8f-5e0e42d5904e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GameObject">
+      <UniqueIdentifier>{7b93b225-2e0d-4be4-9d26-0c83ee5b5fd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{2c0f6b8b-2c84-474c-a146-0cd7dc49b108}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script">
+      <UniqueIdentifier>{f04fe8b2-438a-4a4e-86c1-dc0084df87c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GraphicsPipeline">
+      <UniqueIdentifier>{35c18055-b3f1-43ba-bde1-085e16266610}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GameFrameWork">
+      <UniqueIdentifier>{cb8e15cb-13ae-434a-b932-e2a0806eec28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\pch">
+      <UniqueIdentifier>{adae2b96-fb70-44df-84bb-0b382ff0fe98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Resource">
+      <UniqueIdentifier>{bc4255cf-8655-475f-9b69-2de887d6ab41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Resource\Mesh">
+      <UniqueIdentifier>{0b15e956-62c7-4092-9ab8-5968e0c314e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Resource\Vertex">
+      <UniqueIdentifier>{c6a9f5df-fad2-4cf5-8263-eab3ba053348}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Resource\Polygon">
+      <UniqueIdentifier>{7f48382c-0cbf-4ee9-975f-8e64c6863dea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Key">
+      <UniqueIdentifier>{c005b40b-e71d-49f4-ad53-b79a8ac829b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Component\Transform">
+      <UniqueIdentifier>{83a1d70c-c9ac-4a02-83fe-19249c9447e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Component\Camera">
+      <UniqueIdentifier>{0d6dabc9-439d-40df-98a5-82120419b5f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Explosive">
+      <UniqueIdentifier>{ed05b0ef-79d2-4791-ba0a-b8a669432e9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Airplane">
+      <UniqueIdentifier>{2ae98e09-322b-4a85-9434-0038ce0486ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Player">
+      <UniqueIdentifier>{0983a412-96a8-4218-a147-c8d81f7dcaa2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Bullet">
+      <UniqueIdentifier>{dca1c6fd-6abb-4873-a840-bb429da68b1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\GameManager">
+      <UniqueIdentifier>{a7b2ae78-8288-437d-a071-5a4f45dd183c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Catmullrom">
+      <UniqueIdentifier>{95085240-630b-48a1-9fc4-c33dc39c9971}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Component\Collide">
+      <UniqueIdentifier>{1944db59-25ed-4510-a591-681914d1d05e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\TankMonster">
+      <UniqueIdentifier>{ed5bf7a4-5d23-4fe0-9ceb-8fd7ba59cac2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameFramework.h">
+      <Filter>Engine\GameFrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="2018180035JJM_3DHW1.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Utility\pch</Filter>
+    </ClInclude>
+    <ClInclude Include="MyUtility.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Engine\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="global.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Engine\Component\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Engine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Engine\Resource\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Polygon.h">
+      <Filter>Engine\Resource\Polygon</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>Engine\Resource\Vertex</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Engine\Component\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsPipeline.h">
+      <Filter>Engine\GraphicsPipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="Viewport.h">
+      <Filter>Engine\Component\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Engine\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="Key.h">
+      <Filter>Engine\Key</Filter>
+    </ClInclude>
+    <ClInclude Include="Script.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerScript.h">
+      <Filter>Script\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Engine\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="ExplosiveScript.h">
+      <Filter>Script\Explosive</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletScript.h">
+      <Filter>Script\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="AirplaneScript.h">
+      <Filter>Script\Airplane</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>Script\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CatmullRomSpline.h">
+      <Filter>Utility\Catmullrom</Filter>
+    </ClInclude>
+    <ClInclude Include="TankMonster.h">
+      <Filter>Script\TankMonster</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameFramework.cpp">
+      <Filter>Engine\GameFrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="2018180035JJM_3DHW1.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Utility\pch</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>Engine\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Engine\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Engine\Component\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Engine\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Engine\Resource\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Polygon.cpp">
+      <Filter>Engine\Resource\Polygon</Filter>
+    </ClCompile>
+    <ClCompile Include="Vertex.cpp">
+      <Filter>Engine\Resource\Vertex</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Engine\Component\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsPipeline.cpp">
+      <Filter>Engine\GraphicsPipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="Viewport.cpp">
+      <Filter>Engine\Component\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Engine\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="Key.cpp">
+      <Filter>Engine\Key</Filter>
+    </ClCompile>
+    <ClCompile Include="Script.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerScript.cpp">
+      <Filter>Script\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="ExplosiveScript.cpp">
+      <Filter>Script\Explosive</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletScript.cpp">
+      <Filter>Script\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="AirplaneScript.cpp">
+      <Filter>Script\Airplane</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>Script\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CatmullRomSpline.cpp">
+      <Filter>Utility\Catmullrom</Filter>
+    </ClCompile>
+    <ClCompile Include="TankMonster.cpp">
+      <Filter>Script\TankMonster</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="2018180035JJM_3DHW1.rc">
+      <Filter>Utility\리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Utility\리소스 파일</Filter>
+    </Image>
+    <Image Include="2018180035JJM_3DHW1.ico">
+      <Filter>Utility\리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>
